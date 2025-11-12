@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configurator TinyPods – Personalizează-ți spațiul</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a class="header__logo" href="/">
+          <span class="header__logo-icon">TP</span>
+          TinyPods
+        </a>
+        <nav class="nav" id="primary-navigation">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="/pages/catalogue.html">Modele</a></li>
+            <li><a class="nav__link" href="/pages/configurator.html">Configurator</a></li>
+            <li><a class="nav__link" href="/pages/about.html">Despre</a></li>
+            <li><a class="nav__link" href="/pages/faq.html">FAQ</a></li>
+            <li><a class="nav__link" href="/pages/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="header__toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Deschide meniul">☰</button>
+        <a class="button header__cta" href="/pages/configurator.html">Programează o vizionare</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1 class="page-hero__title">Configurează TinyPod-ul perfect</h1>
+          <p class="page-hero__intro">Alege modelul de bază, personalizează finisajele și adaugă opțiuni de confort. Vezi costul actualizat în timp real.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container configurator" data-configurator data-base-price="39500">
+          <div class="configurator__panel">
+            <div class="configurator__group" data-configurator-group="model">
+              <span class="configurator__label">Alege modelul</span>
+              <div class="configurator__options">
+                <button class="configurator__option is-active" data-configurator-option data-option-label="TinyPod Nordic 24" data-option-price="0">TinyPod Nordic 24 <span>Inclus</span></button>
+                <button class="configurator__option" data-configurator-option data-option-label="TinyPod Vista 30" data-option-price="8500">TinyPod Vista 30 <span>+ €8.500</span></button>
+                <button class="configurator__option" data-configurator-option data-option-label="TinyPod Retreat 35" data-option-price="17500">TinyPod Retreat 35 <span>+ €17.500</span></button>
+              </div>
+            </div>
+
+            <div class="configurator__group" data-configurator-group="finisaj">
+              <span class="configurator__label">Finisaje exterioare</span>
+              <div class="configurator__options">
+                <button class="configurator__option is-active" data-configurator-option data-option-label="Fațadă lemn termotratat" data-option-price="0">Fațadă lemn termotratat <span>Inclus</span></button>
+                <button class="configurator__option" data-configurator-option data-option-label="Fațadă metalică ventilată" data-option-price="2200">Fațadă metalică ventilată <span>+ €2.200</span></button>
+                <button class="configurator__option" data-configurator-option data-option-label="Tencuială minerală + lemn" data-option-price="1450">Tencuială minerală + lemn <span>+ €1.450</span></button>
+              </div>
+            </div>
+
+            <div class="configurator__group" data-configurator-group="energie">
+              <span class="configurator__label">Pachet energie</span>
+              <div class="configurator__options">
+                <button class="configurator__option is-active" data-configurator-option data-option-label="Standard A+" data-option-price="0">Standard A+ <span>Inclus</span></button>
+                <button class="configurator__option" data-configurator-option data-option-label="Panouri fotovoltaice 3kW" data-option-price="3900">Panouri fotovoltaice 3kW <span>+ €3.900</span></button>
+                <button class="configurator__option" data-configurator-option data-option-label="Pachet off-grid" data-option-price="7800">Pachet off-grid <span>+ €7.800</span></button>
+              </div>
+            </div>
+
+            <div class="configurator__group" data-configurator-group="mobilier">
+              <span class="configurator__label">Mobilier și accesorii</span>
+              <div class="configurator__options">
+                <button class="configurator__option is-active" data-configurator-option data-option-label="Mobilier standard" data-option-price="0">Mobilier standard <span>Inclus</span></button>
+                <button class="configurator__option" data-configurator-option data-option-label="Pachet premium design" data-option-price="3200">Pachet premium design <span>+ €3.200</span></button>
+                <button class="configurator__option" data-configurator-option data-option-label="Setup home office" data-option-price="1850">Setup home office <span>+ €1.850</span></button>
+              </div>
+            </div>
+          </div>
+
+          <aside class="configurator__summary">
+            <h2 class="configurator__summary-title">Rezumat ofertă</h2>
+            <p>Bază de calcul: TinyPod Nordic 24 – €39.500</p>
+            <div data-configurator-summary></div>
+            <div class="configurator__total" data-configurator-total>€39.500</div>
+            <p>Trimite configurația către echipa TinyPods și primești o ofertă completă cu termen de livrare.</p>
+            <a class="button" href="/pages/contact.html">Trimite cererea</a>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a class="footer__logo" href="/">
+              <span class="header__logo-icon">TP</span>
+              TinyPods
+            </a>
+            <p>Construcții modulare fabricate în România, inspirate de design scandinav și adaptate stilului de viață urban.</p>
+            <div class="footer__socials">
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="Facebook">Facebook</a>
+              <a href="#" aria-label="YouTube">YouTube</a>
+            </div>
+          </div>
+          <div class="footer__nav">
+            <h4>Companie</h4>
+            <a href="/pages/about.html">Despre noi</a>
+            <a href="/pages/faq.html">Întrebări frecvente</a>
+            <a href="/pages/contact.html">Contact</a>
+          </div>
+          <div class="footer__nav">
+            <h4>Produse</h4>
+            <a href="/pages/catalogue.html#nordic24">TinyPod Nordic 24</a>
+            <a href="/pages/catalogue.html#vista30">TinyPod Vista 30</a>
+            <a href="/pages/catalogue.html#retreat35">TinyPod Retreat 35</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span>© TinyPods 2025</span>
+          <span>Design modular. Livrare națională.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+    <script src="../js/configurator.js" defer></script>
+  </body>
+</html>
