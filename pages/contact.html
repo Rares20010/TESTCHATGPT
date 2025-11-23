@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact TinyPods – Programări și vizite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a class="header__logo" href="../index.html">
+          <span class="header__logo-icon">TP</span>
+          TinyPods
+        </a>
+        <nav class="nav" id="primary-navigation">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="catalogue.html">Modele</a></li>
+            <li><a class="nav__link" href="configurator.html">Configurator</a></li>
+            <li><a class="nav__link" href="about.html">Despre</a></li>
+            <li><a class="nav__link" href="faq.html">FAQ</a></li>
+            <li><a class="nav__link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="header__toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Deschide meniul">☰</button>
+        <a class="button header__cta" href="configurator.html">Programează o vizionare</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1 class="page-hero__title">Hai să discutăm despre TinyPod-ul tău</h1>
+          <p class="page-hero__intro">Completează formularul, trimite un email sau sună-ne și te ajutăm să găsești soluția potrivită.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact">
+          <div class="contact__info">
+            <h2 class="section__title">Contact direct</h2>
+            <ul class="contact__list">
+              <li class="contact__list-item">
+                <span>Telefon</span>
+                <a href="tel:+40755123456">+40 755 123 456</a>
+              </li>
+              <li class="contact__list-item">
+                <span>Email</span>
+                <a href="mailto:hello@tinypods.ro">hello@tinypods.ro</a>
+              </li>
+              <li class="contact__list-item">
+                <span>Adresă fabrică</span>
+                <span>Parcul Industrial Tetarom III, Cluj-Napoca</span>
+              </li>
+              <li class="contact__list-item">
+                <span>Program vizite</span>
+                <span>Luni – Vineri, 10:00-18:00</span>
+              </li>
+            </ul>
+            <div class="cta" style="margin-top: 2rem;">
+              <h3 class="section__title">Planifică o vizită în showroom</h3>
+              <p>Vezi modele în mărime naturală și discută cu un consultant tehnic.</p>
+              <a class="button" href="configurator.html">Rezervă slot</a>
+            </div>
+          </div>
+          <div class="contact__form">
+            <h2 class="section__title">Trimite un mesaj</h2>
+            <form>
+              <label for="name">Nume complet</label>
+              <input id="name" name="name" type="text" placeholder="Nume și prenume" required />
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="exemplu@domeniu.ro" required />
+
+              <label for="phone">Telefon</label>
+              <input id="phone" name="phone" type="tel" placeholder="07xx xxx xxx" />
+
+              <label for="message">Mesaj</label>
+              <textarea id="message" name="message" placeholder="Descrie proiectul tău..."></textarea>
+
+              <button class="button" type="submit">Trimite mesajul</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a class="footer__logo" href="../index.html">
+              <span class="header__logo-icon">TP</span>
+              TinyPods
+            </a>
+            <p>Construcții modulare fabricate în România, inspirate de design scandinav și adaptate stilului de viață urban.</p>
+            <div class="footer__socials">
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="Facebook">Facebook</a>
+              <a href="#" aria-label="YouTube">YouTube</a>
+            </div>
+          </div>
+          <div class="footer__nav">
+            <h4>Companie</h4>
+            <a href="about.html">Despre noi</a>
+            <a href="faq.html">Întrebări frecvente</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="footer__nav">
+            <h4>Produse</h4>
+            <a href="tinypod-nordic-24.html">TinyPod Nordic 24</a>
+            <a href="tinypod-vista-30.html">TinyPod Vista 30</a>
+            <a href="tinypod-retreat-35.html">TinyPod Retreat 35</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span>© TinyPods 2025</span>
+          <span>Design modular. Livrare națională.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>
