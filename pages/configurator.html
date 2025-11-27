@@ -18,11 +18,23 @@
         </a>
         <nav class="nav" id="primary-navigation">
           <ul class="nav__list">
-            <li><a class="nav__link" href="catalogue.html">Modele</a></li>
-            <li><a class="nav__link" href="configurator.html">Configurator</a></li>
-            <li><a class="nav__link" href="about.html">Despre</a></li>
-            <li><a class="nav__link" href="faq.html">FAQ</a></li>
-            <li><a class="nav__link" href="contact.html">Contact</a></li>
+            <li class="nav__item nav__item--has-submenu">
+              <button class="nav__link nav__link--toggle" type="button" aria-expanded="false" aria-haspopup="true" data-submenu-toggle>
+                Modele
+              </button>
+              <ul class="nav__submenu">
+                <li><a class="nav__sublink" href="catalogue.html">Toate modelele</a></li>
+                <li><a class="nav__sublink" href="tinypod-atelier-22.html">TinyPod Atelier 22</a></li>
+                <li><a class="nav__sublink" href="tinypod-nordic-24.html">TinyPod Nordic 24</a></li>
+                <li><a class="nav__sublink" href="tinypod-vista-30.html">TinyPod Vista 30</a></li>
+                <li><a class="nav__sublink" href="tinypod-retreat-35.html">TinyPod Retreat 35</a></li>
+                <li><a class="nav__sublink" href="tinypod-family-40.html">TinyPod Family 40</a></li>
+              </ul>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="configurator.html">Configurator</a></li>
+            <li class="nav__item"><a class="nav__link" href="about.html">Despre</a></li>
+            <li class="nav__item"><a class="nav__link" href="faq.html">FAQ</a></li>
+            <li class="nav__item"><a class="nav__link" href="contact.html">Contact</a></li>
           </ul>
         </nav>
         <button class="header__toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Deschide meniul">☰</button>
@@ -113,9 +125,11 @@
           </div>
           <div class="footer__nav">
             <h4>Produse</h4>
+            <a href="tinypod-atelier-22.html">TinyPod Atelier 22</a>
             <a href="tinypod-nordic-24.html">TinyPod Nordic 24</a>
             <a href="tinypod-vista-30.html">TinyPod Vista 30</a>
             <a href="tinypod-retreat-35.html">TinyPod Retreat 35</a>
+            <a href="tinypod-family-40.html">TinyPod Family 40</a>
           </div>
         </div>
         <div class="footer__bottom">
