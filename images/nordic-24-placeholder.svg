@@ -1,0 +1,13 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder image for TinyPod Nordic 24">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#C4A06A" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#grad)" rx="48"/>
+  <g fill="#F4F1EB" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="420" font-size="72" font-weight="700">TinyPod Nordic 24</text>
+    <text x="600" y="500" font-size="32" opacity="0.85">Adaugă aici fotografia produsului</text>
+  </g>
+</svg>

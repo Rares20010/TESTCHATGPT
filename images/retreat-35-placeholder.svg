@@ -1,0 +1,13 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder image for TinyPod Retreat 35">
+  <defs>
+    <linearGradient id="gradRetreat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#B4845A" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#gradRetreat)" rx="48"/>
+  <g fill="#F8F4ED" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="420" font-size="72" font-weight="700">TinyPod Retreat 35</text>
+    <text x="600" y="500" font-size="32" opacity="0.85">Încarcă viitoarea imagine a modelului</text>
+  </g>
+</svg>
