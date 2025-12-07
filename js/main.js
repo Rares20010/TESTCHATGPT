@@ -1,19 +1,54 @@
 const siteHeader = document.querySelector('.header');
 const nav = document.querySelector('.nav');
 const navToggle = document.querySelector('.header__toggle');
+const submenuToggles = document.querySelectorAll('[data-submenu-toggle]');
 const faqItems = document.querySelectorAll('.faq-item');
 const testimonialTrack = document.querySelector('.testimonials__track');
 const testimonialPrev = document.querySelector('[data-testimonial-prev]');
 const testimonialNext = document.querySelector('[data-testimonial-next]');
 let testimonialIndex = 0;
 
+function closeSubmenus() {
+  submenuToggles.forEach((toggle) => {
+    const parentItem = toggle.closest('.nav__item--has-submenu');
+    parentItem?.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  });
+}
+
 if (navToggle && nav) {
   navToggle.addEventListener('click', () => {
     nav.classList.toggle('nav--open');
     const expanded = navToggle.getAttribute('aria-expanded') === 'true';
     navToggle.setAttribute('aria-expanded', !expanded);
+    if (expanded) {
+      closeSubmenus();
+    }
   });
 }
+
+submenuToggles.forEach((toggle) => {
+  const parentItem = toggle.closest('.nav__item--has-submenu');
+  if (!parentItem) return;
+
+  toggle.addEventListener('click', () => {
+    const isOpen = parentItem.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', isOpen);
+
+    submenuToggles.forEach((otherToggle) => {
+      if (otherToggle === toggle) return;
+      const otherParent = otherToggle.closest('.nav__item--has-submenu');
+      otherParent?.classList.remove('is-open');
+      otherToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+});
+
+document.addEventListener('click', (event) => {
+  if (!nav?.contains(event.target)) {
+    closeSubmenus();
+  }
+});
 
 faqItems.forEach((item) => {
   const button = item.querySelector('.faq-item__button');
