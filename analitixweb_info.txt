@@ -1,0 +1,80 @@
+# Analitix Web - Informatii Extrase
+# Website: www.analitixweb.ro
+# Data extragerii: 2026-01-29
+
+================================================================================
+                              ANALITIX WEB
+                    Creare Site Web Prezentare la Cheie
+================================================================================
+
+## DESPRE COMPANIE
+-----------------
+Analitix Web este o companie din Romania specializata in web design si
+dezvoltare web. Echipa transforma ideile in site-uri interactive si moderne.
+
+Au creat sute de website-uri pentru afaceri din diverse industrii si
+colaboreaza cu antreprenori din toata lumea.
+
+## ECHIPA
+---------
+- Dezvoltatori web
+- Designeri
+- Copywriteri nativi in 8 limbi straine
+- Experti UX (User Experience)
+
+## SERVICII OFERITE
+-------------------
+
+### 1. Creare Website-uri de Prezentare
+   - Solutii complete pentru site-uri moderne si optimizate
+   - Design pentru a atrage mai multi clienti
+   - Site-uri la cheie
+
+### 2. Servicii SEO (Search Engine Optimization)
+   - Optimizare pentru motoarele de cautare
+   - Obiectiv: prima pagina Google in 6-12 luni
+   - Targetare pe cuvinte cheie specifice
+
+### 3. Magazine Online (E-commerce)
+   - Creare magazine online pentru vanzare produse
+   - Cosuri de cumparaturi integrate
+   - Multiple optiuni de plata:
+     * Ramburs (cash on delivery)
+     * Card bancar
+     * Transfer bancar
+
+### 4. Portaluri Web / Marketplace-uri
+   - Dezvoltare portaluri web complexe
+   - Automatizare procese de vanzare
+   - Sisteme de prezentare si rezervari
+
+### 5. Servicii de Mentenanta
+   - Incluse in pachetele de creare website
+   - Actualizari regulate
+   - Securitate
+   - Actualizare continut
+   - Rezolvare probleme tehnice
+
+## MODEL DE BUSINESS - ABONAMENT
+--------------------------------
+- Abonament lunar all-inclusive pe 6 luni
+- Include:
+  * Creare site de prezentare
+  * Servicii SEO
+  * Domeniu si hosting
+  * Optimizare Google Maps
+
+## DURATA PROIECTE
+------------------
+- Medie: 10-14 zile lucratoare
+- Variaza in functie de complexitatea proiectului
+
+## LINK-URI UTILE
+-----------------
+- Homepage: https://analitixweb.ro/
+- Servicii Web Development: https://analitixweb.ro/servicii-web-development/
+- Preturi Site-uri: https://analitixweb.ro/preturi-site-uri-de-prezentare/
+
+================================================================================
+                         END OF DOCUMENT
+================================================================================
