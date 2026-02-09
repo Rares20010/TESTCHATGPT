@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SolarTech Pro - Magazin online premium de panouri fotovoltaice, invertoare, baterii si sisteme de montaj. Energie verde pentru casa ta.">
+  <title>SolarTech Pro - Panouri Fotovoltaice Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="18" cy="18" r="8" fill="var(--color-primary)" stroke="none"/>
+          <line x1="18" y1="2" x2="18" y2="8"/>
+          <line x1="18" y1="28" x2="18" y2="34"/>
+          <line x1="2" y1="18" x2="8" y2="18"/>
+          <line x1="28" y1="18" x2="34" y2="18"/>
+          <line x1="6.7" y1="6.7" x2="11.4" y2="11.4"/>
+          <line x1="24.6" y1="24.6" x2="29.3" y2="29.3"/>
+          <line x1="6.7" y1="29.3" x2="11.4" y2="24.6"/>
+          <line x1="24.6" y1="11.4" x2="29.3" y2="6.7"/>
+        </svg>
+        SolarTech Pro
+      </a>
+
+      <nav class="header__nav">
+        <a href="index.html" class="header__nav-link header__nav-link--active">Acasa</a>
+        <a href="products.html" class="header__nav-link">Produse</a>
+        <a href="products.html?category=monocrystalline" class="header__nav-link">Panouri Solare</a>
+        <a href="products.html?category=inverter" class="header__nav-link">Invertoare</a>
+        <a href="blog.html" class="header__nav-link">Blog</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="cart.html" class="header__cart-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          </svg>
+          <span class="header__cart-badge" data-count="0">0</span>
+        </a>
+        <button class="header__menu-btn" aria-label="Meniu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v1m0 16v1m-8-9H3m18 0h-1m-2.636-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707"/><circle cx="12" cy="12" r="4"/></svg>
+            Energie Verde pentru Viitor
+          </div>
+          <h1 class="hero__title">
+            Panouri Fotovoltaice <span>Premium</span> pentru Casa Ta
+          </h1>
+          <p class="hero__desc">
+            Investeste in independenta energetica cu cele mai performante panouri solare.
+            Economii garantate si tehnologie de ultima generatie.
+          </p>
+          <div class="hero__actions">
+            <a href="products.html" class="btn btn--accent btn--lg">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="20" height="20"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+              Vezi Produsele
+            </a>
+            <a href="#features" class="btn btn--outline" style="border-color: rgba(255,255,255,0.3); color: white;">
+              Afla Mai Multe
+            </a>
+          </div>
+          <div class="hero__stats">
+            <div>
+              <div class="hero__stat-value">5,000+</div>
+              <div class="hero__stat-label">Sisteme instalate</div>
+            </div>
+            <div>
+              <div class="hero__stat-value">25 ani</div>
+              <div class="hero__stat-label">Garantie performanta</div>
+            </div>
+            <div>
+              <div class="hero__stat-value">98%</div>
+              <div class="hero__stat-label">Clienti multumiti</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__image-wrapper">
+            <svg class="hero__panel-icon" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="20" y="30" width="160" height="120" rx="8" fill="rgba(255,255,255,0.1)"/>
+              <line x1="20" y1="60" x2="180" y2="60" opacity="0.3"/>
+              <line x1="20" y1="90" x2="180" y2="90" opacity="0.3"/>
+              <line x1="20" y1="120" x2="180" y2="120" opacity="0.3"/>
+              <line x1="60" y1="30" x2="60" y2="150" opacity="0.3"/>
+              <line x1="100" y1="30" x2="100" y2="150" opacity="0.3"/>
+              <line x1="140" y1="30" x2="140" y2="150" opacity="0.3"/>
+              <rect x="80" y="150" width="40" height="8" rx="2" fill="rgba(255,255,255,0.2)"/>
+              <line x1="100" y1="158" x2="100" y2="180" opacity="0.4"/>
+              <line x1="80" y1="180" x2="120" y2="180" opacity="0.4"/>
+            </svg>
+            <div class="hero__floating-badge hero__floating-badge--top">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              Eficienta 21.3%
+            </div>
+            <div class="hero__floating-badge hero__floating-badge--bottom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Garantie 25 Ani
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="features">
+          <div class="feature-card">
+            <div class="feature-card__icon feature-card__icon--blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3 class="feature-card__title">Eficienta Maxima</h3>
+            <p class="feature-card__desc">Panouri cu eficienta de pana la 22%, echipate cu celule monocristaline de ultima generatie.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon feature-card__icon--green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="feature-card__title">Garantie 25 Ani</h3>
+            <p class="feature-card__desc">Toate panourile vin cu garantie de performanta de 25 de ani si garantie de produs de 12 ani.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon feature-card__icon--yellow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M16 8l-4 4-4-4"/><path d="M12 12v6"/></svg>
+            </div>
+            <h3 class="feature-card__title">Economii Reale</h3>
+            <p class="feature-card__desc">Reducerea facturii la energie cu pana la 90%. Amortizare investitie in 4-6 ani prin programul prosumer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="section section--gray">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Categorii de Produse</h2>
+          <p class="section__subtitle">Solutii complete pentru sistemul tau fotovoltaic</p>
+        </div>
+        <div class="category-cards">
+          <a href="products.html?category=monocrystalline" class="category-card">
+            <div class="category-card__bg">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+            </div>
+            <div class="category-card__overlay">
+              <div class="category-card__name">Panouri Solare</div>
+              <div class="category-card__count">Monocristaline & Policristaline</div>
+            </div>
+          </a>
+          <a href="products.html?category=inverter" class="category-card">
+            <div class="category-card__bg" style="background: linear-gradient(135deg, #1E7E34, #28A745);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="2" y="7" width="20" height="10" rx="2"/><line x1="6" y1="7" x2="6" y2="17"/><circle cx="15" cy="12" r="2"/><path d="M22 12h-3M5 12H2"/></svg>
+            </div>
+            <div class="category-card__overlay">
+              <div class="category-card__name">Invertoare</div>
+              <div class="category-card__count">Hibride & String</div>
+            </div>
+          </a>
+          <a href="products.html?category=battery" class="category-card">
+            <div class="category-card__bg" style="background: linear-gradient(135deg, #004C99, #0088FF);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="6" y="4" width="12" height="18" rx="2"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/><line x1="6" y1="10" x2="18" y2="10"/><line x1="6" y1="15" x2="18" y2="15"/></svg>
+            </div>
+            <div class="category-card__overlay">
+              <div class="category-card__name">Baterii</div>
+              <div class="category-card__count">Stocare Litiu-Ion</div>
+            </div>
+          </a>
+          <a href="products.html?category=mounting" class="category-card">
+            <div class="category-card__bg" style="background: linear-gradient(135deg, #343A40, #6C757D);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M2 20h20"/><path d="M5 20V10l7-6 7 6v10"/><path d="M9 20v-4h6v4"/></svg>
+            </div>
+            <div class="category-card__overlay">
+              <div class="category-card__name">Sisteme de Montaj</div>
+              <div class="category-card__count">Acoperis & Sol</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Produse Recomandate</h2>
+          <p class="section__subtitle">Cele mai vandute panouri si echipamente fotovoltaice</p>
+        </div>
+        <div class="products-grid grid--4" id="featured-products">
+          <!-- Populated by JS -->
+        </div>
+        <div style="text-align: center; margin-top: var(--space-8);">
+          <a href="products.html" class="btn btn--outline btn--lg">Vezi Toate Produsele</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Signals -->
+    <section class="section section--gray">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">De Ce Sa Alegi SolarTech Pro?</h2>
+        </div>
+        <div class="trust-badges">
+          <div class="trust-badge">
+            <div class="trust-badge__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <div class="trust-badge__title">Livrare in Toata Tara</div>
+            <div class="trust-badge__desc">Transport gratuit pentru comenzi peste 5,000 RON</div>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-badge__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="trust-badge__title">Garantie Extinsa</div>
+            <div class="trust-badge__desc">Garantie de performanta pana la 25 de ani</div>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-badge__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div class="trust-badge__title">Suport Tehnic</div>
+            <div class="trust-badge__desc">Echipa de specialisti disponibila Luni-Vineri</div>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-badge__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="trust-badge__title">Produse Certificate</div>
+            <div class="trust-badge__desc">Toate produsele sunt certificate IEC, TUV, CE</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Ce Spun Clientii Nostri</h2>
+          <p class="section__subtitle">Peste 5,000 de sisteme instalate cu succes in Romania</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <div class="stars stars--lg">
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+            </div>
+            <p class="testimonial-card__text">"Am instalat 16 panouri LONGi pe acoperisul casei. Factura la energie a scazut cu 85% si deja produc energie pe care o vand in retea prin programul prosumer."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">AM</div>
+              <div>
+                <div class="testimonial-card__name">Alexandru M.</div>
+                <div class="testimonial-card__role">Cluj-Napoca</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <div class="stars stars--lg">
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+            </div>
+            <p class="testimonial-card__text">"Servicii de exceptie! De la consultanta pana la livrare, totul a fost profesional. Invertorul Huawei functioneaza impecabil cu panourile Canadian Solar."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">MP</div>
+              <div>
+                <div class="testimonial-card__name">Maria P.</div>
+                <div class="testimonial-card__role">Bucuresti</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <div class="stars stars--lg">
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1" opacity="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+            </div>
+            <p class="testimonial-card__text">"Bateria BYD HVS a fost cea mai buna decizie. Acum avem energie si noaptea, iar in timpul verii vindem surplusul. Recomand SolarTech Pro tuturor!"</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">ID</div>
+              <div>
+                <div class="testimonial-card__name">Ion D.</div>
+                <div class="testimonial-card__role">Timisoara</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section class="section section--gray">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Ghiduri si Noutati</h2>
+          <p class="section__subtitle">Informatii utile despre energia solara si legislatie</p>
+        </div>
+        <div class="blog-preview-grid" id="blog-preview">
+          <!-- Populated by JS -->
+        </div>
+        <div style="text-align: center; margin-top: var(--space-8);">
+          <a href="blog.html" class="btn btn--outline btn--lg">Vezi Toate Articolele</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <h2 class="cta-banner__title">Pregatit sa faci pasul catre energia verde?</h2>
+          <p class="cta-banner__desc">Contacteaza-ne pentru o consultanta gratuita sau exploreaza gama noastra de produse.</p>
+          <a href="products.html" class="btn btn--primary btn--lg" style="background: white; color: var(--color-accent-dark);">
+            Descopera Produsele Noastre
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section section--gray">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Aboneaza-te la Newsletter</h2>
+          <p class="section__subtitle">Primeste oferte exclusive si noutati despre energia solara</p>
+        </div>
+        <div class="newsletter">
+          <input type="email" class="form-input" placeholder="Adresa ta de email">
+          <button class="btn btn--primary">Aboneaza-te</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="18" cy="18" r="8" fill="var(--color-primary)" stroke="none"/>
+              <line x1="18" y1="2" x2="18" y2="8"/><line x1="18" y1="28" x2="18" y2="34"/>
+              <line x1="2" y1="18" x2="8" y2="18"/><line x1="28" y1="18" x2="34" y2="18"/>
+            </svg>
+            SolarTech Pro
+          </div>
+          <p class="footer__desc">
+            Magazin online premium de panouri fotovoltaice si echipamente pentru sisteme solare.
+            Energie curata pentru un viitor sustenabil.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Produse</h4>
+          <div class="footer__links">
+            <a href="products.html?category=monocrystalline" class="footer__link">Panouri Monocristaline</a>
+            <a href="products.html?category=polycrystalline" class="footer__link">Panouri Policristaline</a>
+            <a href="products.html?category=inverter" class="footer__link">Invertoare</a>
+            <a href="products.html?category=battery" class="footer__link">Baterii</a>
+            <a href="products.html?category=mounting" class="footer__link">Sisteme de Montaj</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Informatii</h4>
+          <div class="footer__links">
+            <a href="blog.html" class="footer__link">Blog</a>
+            <a href="#" class="footer__link">Despre Noi</a>
+            <a href="#" class="footer__link">Contact</a>
+            <a href="#" class="footer__link">Politica de Retur</a>
+            <a href="#" class="footer__link">Termeni si Conditii</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__links">
+            <span class="footer__link">+40 721 234 567</span>
+            <span class="footer__link">contact@solartech.ro</span>
+            <span class="footer__link">Str. Energiei Nr. 42</span>
+            <span class="footer__link">Bucuresti, Romania</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 SolarTech Pro. Toate drepturile rezervate.</span>
+        <div class="footer__payment-icons">
+          <span style="font-size: 11px; opacity: 0.6;">Plata securizata:</span>
+          <span style="font-size: 11px; background: var(--color-gray-800); padding: 2px 8px; border-radius: 4px;">VISA</span>
+          <span style="font-size: 11px; background: var(--color-gray-800); padding: 2px 8px; border-radius: 4px;">Mastercard</span>
+          <span style="font-size: 11px; background: var(--color-gray-800); padding: 2px 8px; border-radius: 4px;">Ramburs</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/store.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Load featured products
+      try {
+        const response = await fetch('data/products.json');
+        const products = await response.json();
+        const featured = products.filter(p => p.featured).slice(0, 4);
+        const grid = document.getElementById('featured-products');
+
+        if (grid && featured.length > 0) {
+          grid.innerHTML = featured.map(product => {
+            const discount = product.originalPrice
+              ? Math.round((1 - product.price / product.originalPrice) * 100) : 0;
+            const wattage = product.specs?.wattage ? `${product.specs.wattage}W` : '';
+            const efficiency = product.specs?.efficiency ? `${product.specs.efficiency}%` : '';
+
+            return `
+              <div class="product-card">
+                <a href="product-detail.html?id=${product.id}" class="product-card__image">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="width:60px;height:60px;color:var(--color-gray-300)">
+                    <rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/>
+                  </svg>
+                  ${discount > 0 ? `<span class="product-card__badge product-card__badge--sale">-${discount}%</span>` : ''}
+                  ${product.featured && !discount ? '<span class="product-card__badge">Recomandat</span>' : ''}
+                </a>
+                <div class="product-card__body">
+                  <div class="product-card__brand">${product.brand}</div>
+                  <h3 class="product-card__name"><a href="product-detail.html?id=${product.id}">${product.name}</a></h3>
+                  <div class="product-card__specs">
+                    ${wattage ? `<span class="product-card__spec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="14" height="14"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>${wattage}</span>` : ''}
+                    ${efficiency ? `<span class="product-card__spec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="14" height="14"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>${efficiency}%</span>` : ''}
+                  </div>
+                  <div class="product-card__rating">
+                    ${UI.renderStars(product.rating)}
+                    <span class="product-card__review-count">(${product.reviewCount})</span>
+                  </div>
+                  <div class="product-card__footer">
+                    <div>
+                      <span class="product-card__price">${UI.formatPrice(product.price)}</span>
+                      ${product.originalPrice ? `<span class="product-card__price-old">${UI.formatPrice(product.originalPrice)}</span>` : ''}
+                    </div>
+                    <button class="product-card__add-btn" data-id="${product.id}" title="Adauga in cos">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>`;
+          }).join('');
+
+          // Bind add to cart
+          grid.querySelectorAll('.product-card__add-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              const product = products.find(p => p.id === btn.dataset.id);
+              if (product) {
+                Cart.addItem(product);
+                UI.showToast(`${product.name} a fost adaugat in cos!`);
+              }
+            });
+          });
+        }
+      } catch (e) {
+        console.error('Failed to load featured products:', e);
+      }
+
+      // Load blog preview
+      try {
+        const response = await fetch('data/blog-posts.json');
+        const posts = await response.json();
+        const preview = posts.slice(0, 3);
+        const blogGrid = document.getElementById('blog-preview');
+
+        if (blogGrid && preview.length > 0) {
+          const categoryNames = { 'ghiduri': 'Ghiduri', 'tehnologie': 'Tehnologie', 'legislatie': 'Legislatie', 'sustenabilitate': 'Sustenabilitate' };
+          blogGrid.innerHTML = preview.map(post => `
+            <article class="blog-card">
+              <div class="blog-card__image">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="width:48px;height:48px;color:var(--color-primary);opacity:0.5;">
+                  <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+                </svg>
+              </div>
+              <div class="blog-card__body">
+                <div class="blog-card__meta">
+                  <span class="blog-card__category">${categoryNames[post.category] || post.category}</span>
+                  <span>${post.readTime} lectura</span>
+                </div>
+                <h3 class="blog-card__title">${post.title}</h3>
+                <p class="blog-card__excerpt">${post.excerpt}</p>
+              </div>
+            </article>
+          `).join('');
+        }
+      } catch (e) {
+        console.error('Failed to load blog posts:', e);
+      }
+    });
+  </script>
+</body>
+</html>
