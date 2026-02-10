@@ -12,6 +12,9 @@ const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Trust proxy (needed for HTTPS on Codespaces/reverse proxies)
+app.set('trust proxy', 1);
+
 // Middleware
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
@@ -22,7 +25,9 @@ app.use(session({
   saveUninitialized: false,
   cookie: {
     maxAge: 24 * 60 * 60 * 1000, // 24 hours
-    httpOnly: true
+    httpOnly: true,
+    secure: false,      // Allow HTTP (Codespaces proxy handles HTTPS)
+    sameSite: 'lax'
   }
 }));
 
@@ -102,6 +107,14 @@ function initDataFiles() {
 }
 
 initDataFiles();
+
+// Global error handler - always return JSON for API errors
+app.use((err, req, res, _next) => {
+  console.error('Server error:', err.message);
+  res.status(err.status || 500).json({
+    error: err.message || 'Eroare interna server.'
+  });
+});
 
 app.listen(PORT, () => {
   console.log(`\n  SolarTech Pro CMS Server`);

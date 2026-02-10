@@ -12,9 +12,12 @@ const Admin = (() => {
   // ==========================================
   async function api(url, options = {}) {
     const config = {
-      headers: { 'Content-Type': 'application/json', ...options.headers },
+      headers: { 'Content-Type': 'application/json' },
       ...options
     };
+    if (options.headers) {
+      config.headers = { ...config.headers, ...options.headers };
+    }
     if (config.body && typeof config.body === 'object' && !(config.body instanceof FormData)) {
       config.body = JSON.stringify(config.body);
     }
@@ -22,7 +25,14 @@ const Admin = (() => {
       delete config.headers['Content-Type'];
     }
     const res = await fetch(url, config);
-    const data = await res.json();
+    const text = await res.text();
+    let data;
+    try {
+      data = JSON.parse(text);
+    } catch {
+      console.error('Non-JSON response from', url, ':', text.substring(0, 200));
+      throw new Error('Raspuns invalid de la server. Verificati consola.');
+    }
     if (!res.ok) throw new Error(data.error || 'Eroare necunoscuta');
     return data;
   }
