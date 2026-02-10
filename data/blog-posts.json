@@ -1,0 +1,56 @@
+[
+  {
+    "id": "post-001",
+    "title": "Ghid complet de instalare a panourilor solare pe acoperișul casei tale",
+    "excerpt": "Aflați pașii esențiali pentru montarea corectă a panourilor solare pe acoperișul rezidențial. De la evaluarea structurală până la conectarea la rețea, acest ghid acoperă tot ce trebuie să știți.",
+    "category": "ghiduri",
+    "date": "2026-01-28",
+    "thumbnail": "images/blog-placeholder.jpg",
+    "readTime": "8 min"
+  },
+  {
+    "id": "post-002",
+    "title": "Instalarea sistemelor solare la sol: ghid pas cu pas pentru terenuri deschise",
+    "excerpt": "Montarea panourilor solare la sol este ideală pentru proprietarii cu teren disponibil și acoperiș neadecvat. Descoperiți cum să planificați, instalați și optimizați un sistem solar ground-mount.",
+    "category": "ghiduri",
+    "date": "2026-01-20",
+    "thumbnail": "images/blog-placeholder.jpg",
+    "readTime": "7 min"
+  },
+  {
+    "id": "post-003",
+    "title": "Monocristalin vs. Policristalin: care panouri solare sunt potrivite pentru tine?",
+    "excerpt": "Alegerea între panourile monocristaline și policristaline poate fi confuză. Comparăm eficiența, prețul și durabilitatea ambelor tehnologii pentru a vă ajuta să luați decizia corectă.",
+    "category": "tehnologie",
+    "date": "2026-01-15",
+    "thumbnail": "images/blog-placeholder.jpg",
+    "readTime": "6 min"
+  },
+  {
+    "id": "post-004",
+    "title": "Baterii solare LFP în 2026: tot ce trebuie să știți despre stocarea energiei acasă",
+    "excerpt": "Bateriile litiu-fier-fosfat (LFP) revoluționează stocarea energiei rezidențiale prin siguranță și durabilitate. Analizăm cele mai bune opțiuni disponibile pe piața din România și cum să alegeți capacitatea potrivită.",
+    "category": "tehnologie",
+    "date": "2026-01-10",
+    "thumbnail": "images/blog-placeholder.jpg",
+    "readTime": "5 min"
+  },
+  {
+    "id": "post-005",
+    "title": "Legea prosumatorilor 2026: ce drepturi aveți și cum să vindeți energia solară în rețea",
+    "excerpt": "Legislația română privind prosumatorii a fost actualizată cu noi prevederi pentru compensarea energiei livrate în rețea. Explicăm schimbările recente și impactul asupra proprietarilor de sisteme fotovoltaice.",
+    "category": "legislatie",
+    "date": "2026-02-01",
+    "thumbnail": "images/blog-placeholder.jpg",
+    "readTime": "6 min"
+  },
+  {
+    "id": "post-006",
+    "title": "Cât economisești real cu panouri solare în România? Calcul detaliat pentru 2026",
+    "excerpt": "Investiția într-un sistem fotovoltaic se amortizează în medie în 5-7 ani pe piața românească. Prezentăm un calcul detaliat al economiilor lunare și anuale, inclusiv beneficiile programului Casa Verde.",
+    "category": "sustenabilitate",
+    "date": "2026-01-05",
+    "thumbnail": "images/blog-placeholder.jpg",
+    "readTime": "5 min"
+  }
+]

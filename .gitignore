@@ -1,0 +1,8 @@
+node_modules/
+uploads/products/*
+uploads/blog/*
+!uploads/products/.gitkeep
+!uploads/blog/.gitkeep
+data/admin-users.json
+data/orders.json
+data/settings.json
