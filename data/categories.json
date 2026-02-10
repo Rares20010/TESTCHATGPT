@@ -1,0 +1,42 @@
+[
+  {
+    "id": "monocrystalline",
+    "name": "Panouri Monocristaline",
+    "slug": "monocrystalline",
+    "description": "Panouri solare cu celule monocristaline de inalta eficienta",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "polycrystalline",
+    "name": "Panouri Policristaline",
+    "slug": "polycrystalline",
+    "description": "Panouri solare cu celule policristaline, pret accesibil",
+    "order": 2,
+    "active": true
+  },
+  {
+    "id": "inverter",
+    "name": "Invertoare",
+    "slug": "inverter",
+    "description": "Invertoare solare hibride si string",
+    "order": 3,
+    "active": true
+  },
+  {
+    "id": "battery",
+    "name": "Baterii",
+    "slug": "battery",
+    "description": "Sisteme de stocare energie litiu-ion",
+    "order": 4,
+    "active": true
+  },
+  {
+    "id": "mounting",
+    "name": "Sisteme de Montaj",
+    "slug": "mounting",
+    "description": "Structuri de montaj pentru acoperis si sol",
+    "order": 5,
+    "active": true
+  }
+]
